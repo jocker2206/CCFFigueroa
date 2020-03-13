@@ -5,7 +5,8 @@ import Carousel from '../components/carousel';
 import Contacto from '../components/contacto';
 import Imagff from '../components/imagff';
 import Views from '../components/views';
-import Opiniones from '../components/Opiniones';
+import Opiniones from '../components/opiniones';
+import Registro from '../components/registro';
 export default class Index extends Component
 {
 
@@ -27,6 +28,7 @@ export default class Index extends Component
                 />
                 <Views/>
                 <Opiniones/>
+                <Registro/>
             </Fragment>
             
         );
