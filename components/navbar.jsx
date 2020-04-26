@@ -50,22 +50,22 @@ export default class NavBar extends Component
                                         <div class="main-menu  d-none d-lg-block">
                                             <nav>
                                                 <ul id="navigation">
-                                                    <li><a  href="index.html">home</a></li>
-                                                    <li><a  href="service.html">Services</a></li>
-                                                    <li><a href="About.html">about</a></li>
-                                                    <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                    <li><a  href="/">INICIO</a></li>
+                                                    <li><a  href="/servicios">SERVICIOS</a></li>
+                                                    <li><a href="/acerca">ACERCA DE</a></li>
+                                                    <li><a href="#">PAGINAS <i class="ti-angle-down"></i></a>
                                                         <ul class="submenu">
-                                                            <li><a href="service_details.html">service details</a></li>
-                                                            <li><a href="elements.html">elements</a></li>
+                                                            <li><a href="/detalles_servicios">DETALLES DE SERVICIOS</a></li>
+                                                            <li><a href="elementos">ELEMENTOS</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                    <li><a href="#">BLOG <i class="ti-angle-down"></i></a>
                                                         <ul class="submenu">
-                                                            <li><a href="blog.html">blog</a></li>
-                                                            <li><a href="single-blog.html">single-blog</a></li>
+                                                            <li><a href="/perfil">BLOG</a></li>
+                                                            <li><a href="/blog_personal">BLOG PERSONAL</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="contact.html">CONTACTO</a></li>
                                                 </ul>
                                             </nav>
                                         </div>

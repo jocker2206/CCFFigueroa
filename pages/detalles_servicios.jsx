@@ -7,17 +7,17 @@ import Imagff from '../components/imagff';
 import Views from '../components/views';
 import Opiniones from '../components/opiniones';
 import Registro from '../components/registro';
-export default class Index extends Component
-{
 
-    render() {
-        return (
+export default class Detalles_servicos extends Component 
+{
+    render ()
+    {
+        return(
             <Fragment>
-                <Slider  titulo="........................"
-                    descripcion="CONSULTORES Y CONTRUCTORES"
-                    button="Click"
-                />
-                <Info/>
+
+            <Slider descripcion="Detalles de todos los servicos" 
+            style={{ height: "300px" }}/>
+             <Info/>
                 <Carousel/>
                 <Contacto 
                     titulo="titulo"
@@ -33,9 +33,6 @@ export default class Index extends Component
                 <Opiniones/>
                 <Registro/>
             </Fragment>
-            
         );
     }
-
-
 }

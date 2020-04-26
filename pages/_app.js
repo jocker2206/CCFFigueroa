@@ -20,8 +20,8 @@ class MyApp extends App {
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
             <title>Consultores y Constructores F Figueroa</title>
             <link rel="shortcut icon" href="/img/logo-unu.png"/>
-
-            <link rel="stylesheet" href="css/bootstrap.min.css"/>
+ 
+           <link rel="stylesheet" href="css/bootstrap.min.css"/>
             <link rel="stylesheet" href="css/owl.carousel.min.css"/>
             <link rel="stylesheet" href="css/magnific-popup.css"/>
             <link rel="stylesheet" href="css/font-awesome.min.css"/>
@@ -36,7 +36,7 @@ class MyApp extends App {
 
             <link rel="stylesheet" href="css/style.css"/>
             <link rel="stylesheet" href="css/responsive.css"/>
-
+            
           </Head>
 
           <Navbar/>
