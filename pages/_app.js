@@ -36,7 +36,7 @@ class MyApp extends App {
 
             <link rel="stylesheet" href="css/style.css"/>
             <link rel="stylesheet" href="css/responsive.css"/>
-            
+            <link rel="stylesheet" href="css/font.css"/>
           </Head>
 
           <Navbar/>

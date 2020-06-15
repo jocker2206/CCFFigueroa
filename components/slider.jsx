@@ -22,8 +22,8 @@ export default class slider extends Component
                         <div class="row align-items-center justify-content-center">
                             <div class="col-xl-8">
                                 <div class="slider_text text-center justify-content-center">
-                                    <p>{this.props.descripcion}</p>
                                     <h3>{this.props.titulo}</h3>
+                                    <p>{this.props.descripcion}</p>
                                     {this.props.button ? <a class="boxed-btn3" href="service.html">{this.props.button}</a> : null}
                                     
                                 </div>

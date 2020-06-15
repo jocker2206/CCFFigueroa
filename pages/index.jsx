@@ -13,8 +13,8 @@ export default class Index extends Component
     render() {
         return (
             <Fragment>
-                <Slider  titulo="........................"
-                    descripcion="CONSULTORES Y CONTRUCTORES"
+                <Slider  titulo="CONSULTORES Y CONSTRUCTORES"
+                    descripcion="FRANKIE FIGUEROA"
                     button="Click"
                 />
                 <Info/>
